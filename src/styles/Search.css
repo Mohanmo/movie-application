@@ -1,0 +1,25 @@
+.search-result {
+	position: absolute;
+	border-radius: 4px;
+	background: #f9f9f9;
+	top: 51px;
+	right: 0px;
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.search-result-item {
+	cursor: pointer;
+	line-height: 45px;
+}
+
+.search-result-item p {
+	padding: 0 10px 0 10px;
+}
+
+.search-result-item:hover {
+	background-color: #ddd;
+}
