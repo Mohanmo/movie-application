@@ -12,7 +12,7 @@ import { configureStore, configureHistory } from './store';
 
 const store = configureStore();
 const history = configureHistory(store);
-
+//test
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
